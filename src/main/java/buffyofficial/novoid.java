@@ -28,6 +28,9 @@ public final class novoid extends JavaPlugin implements Listener {
         reloadLocalConfig();
         Bukkit.getPluginManager().registerEvents(this, this);
         getLogger().info("NoVoid started");
+        getLogger().warning("====================[ NoVoid Notice System ]====================");
+        getLogger().warning("This plugin is not recommended to be used in a production server as it may caused issues.");
+        getLogger().warning("====================[ NoVoid Notice System ]====================");
     }
 
     @Override

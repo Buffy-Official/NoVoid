@@ -1,0 +1,17 @@
+name: NoVoid
+version: '1.0'
+main: buffyofficial.novoid
+api-version: '1.21'
+prefix: NoVoid
+load: STARTUP
+authors: [ BuffyOfficial ]
+description: Prevents players from falling into the void
+commands:
+  novoid:
+    description: Main command for NoVoid
+    usage: /novoid reload
+    permission: novoid.admin.reload
+permissions:
+  novoid.admin.reload:
+    description: Allows reload the NoVoid configuration
+    default: op
